@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+.env.local
+
+# Data files (too big for git)
+data/chunks.jsonl
+data/chunks_ctx.jsonl
+data/chunks_ctx.cache.json
+data/chroma/
+data/bm25.pkl
+sentry/
+cloned_repo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
